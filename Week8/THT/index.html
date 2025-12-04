@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio — Viesto Purnama Putra</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <header>
+    <table>
+      <tr>
+        <td >
+          <img class="avatar" src="Avatar.jpg" alt="Viesto">
+        </td>
+        <td>
+          <h1>Viesto Purnama Putra</h1>
+          <p>Mahasiswa Ilmu Komputer — Universitas Pertamina</p>
+          <nav>
+            <a href="#about">Tentang</a>
+            <a href="#projects">Proyek</a>
+            <a href="#skills">Skill</a>
+            <a href="#contact">Kontak</a>
+          </nav>
+        </td>
+      </tr>
+    </table>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p class="about">Saya <strong>Viesto Purnama Putra</strong> (NIM 105223016), saya merupakan mahasiswa aktif prodi Ilmu Komputer angkatan 2023 Universitas Pertamina. 
+        Saya tertarik pada pengembangan web, sains data, dan kesenian musik. <br> <br>
+        Di luar akademik, saya aktif dalam <strong>UKM Orchestra</strong> dan <strong>UKM Tennis</strong>. 
+        Melalui kegiatan musik, saya belajar mengenai disiplin, kerja sama tim, dan ekspresi diri melalui harmoni. 
+        Saya telah berpartisipasi dalam <strong>tiga konser besar di Taman Ismail Marzuki</strong> serta turut menjadi bagian dari <strong>tim panitia</strong> penyelenggara, yang memperkuat kemampuan saya dalam mengatur waktu, berkomunikasi, dan bekerja di bawah tekanan.  
+        <br><br>
+        Dalam olahraga tennis, saya menemukan keseimbangan antara fokus dan ketekunan. 
+        Kombinasi antara dunia teknologi, seni, dan olahraga membantu saya membangun karakter yang adaptif, terstruktur, dan kreatif nilai-nilai yang selalu saya bawa dalam setiap proyek yang saya kerjakan.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Proyek Yang Saya Kerjakan</h2>
+      <div class ="grid">
+        <article class="card">
+          <h3>Manajemen Antrian pasien rumah sakit</h3>
+          <p class="desc">Program pengelolaan data antrian pasien rumah menggunakan array dan linked list.</p>
+          <span class="tag">C++</span><span class="tag">Structures</span><span class="tag">LinkedList</span>
+        </article>
+
+        <article class="card">
+          <h3>Manajemen sistem barang hilang</h3>
+          <p class="desc">Sistem manajemen barang hilang di kampus universitas pertamina dengan berbasis website yang terhubung langsung dengan sistem informasi mahasiswa.</p>
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+        </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skil dan Pengalaman</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Skill</h3>
+          <ul>
+            <li>HTML & CSS (Dasar)</li>
+            <li>C++ (Struktur Data)</li>
+            <li>Python (Analisis Data)</li>
+            <li>SQL (Database Oracle)</li>
+          </ul>
+        </article>  
+        <article class="card">
+          <h3>Pengalaman</h3>
+          <ul>
+            <p>
+              <li>Panitia konser dan pemain UKM Orchestra</li>
+              <li>Juara harapan lomba paper yang diselenggarakan oleh POLTEKAD</li>
+              <li>Juara renang tingkat provinsi tahun 2024</li>
+            </p>
+          </ul>
+          <h3>Pendidikan</h3>
+          <ul>
+            <li>SMP Negeri 12 (2017-2020)</li>
+            <li>SMK Negeri 6 (2020-2023)</li>
+            <li>Universitas Pertamina (2023-sekarang)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontak Saya</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>Kirim Pesan</h3>
+
+          <p id="successMessage" style="display: none;">Pesan berhasil dikirim!</p>
+
+          <form id="contactForm">
+            <label>Nama:</label>
+            <input type="text" id="name" class="input-field">
+            <small id="nameError" class="error-text"></small><br>
+
+            <label>Email:</label>
+            <input type="text" id="email" class="input-field">
+            <small id="emailError" class="error-text"></small><br>
+
+            <label>Pesan:</label>
+            <textarea id="message" class="input-field"></textarea>
+            <small id="messageError" class="error-text"></small><br>
+
+            <button type="submit" id="submitBtn">Kirim</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h3>Hubungi Saya</h3>
+
+          <ul class="list">
+            <li><strong>Email:</strong> <a href="mailto:Viestopurnama20@gmail.com">Viestopurnama20@gmail.com</a></li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/viestoo">@viestoo</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/081383317118">0813-8331-7118</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/viesto-putra-1a53802a3">Viesto Putra</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Viesto Purnama Putra</p>
+  </footer>
+</body>
+</html>

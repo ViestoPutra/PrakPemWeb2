@@ -1,0 +1,187 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 0;
+  background-color: #f6f8fb;
+}
+
+header{
+  margin-left: 10%; 
+}
+
+.avatar{
+  width:105px;
+  height:148px;
+  border-radius:12px;
+  border:3px solid #7cc0ff;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #10325f;
+  background-color: #7cc0ff;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about{
+  text-align: justify;
+}
+
+p {
+  line-height: 1.5;
+  
+}
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1a73e8;
+  border-bottom: 2px solid #1a73e8;
+  padding-bottom: 5px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+  margin-top:18px
+}
+.card{
+  background:#dceeff;
+  padding:14px;
+  border-radius:12px;
+}
+.tag{
+  padding:6px 8px;
+  border-radius:8px;
+  font-size:12px;
+  background:#f1f5f9;
+  margin-left:8px
+}
+
+#contact {
+  background: #f0f7ff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+#contact h2 {
+  margin-bottom: 15px;
+}
+
+#contact form {
+  margin-top: 10px;
+  width: 70%;
+}
+
+#contact label {
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li{
+  color: #6b7280;
+}
+.desc{
+  color: #6b7280;
+}
+
+a{
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+  color: #10325f;
+  background-color: #7cc0ff;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  margin-top: 20px;
+}
+
+
+#contact {
+  margin-top: 30px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  border: 1.5px solid #cdd6e4;
+  font-size: 15px;
+}
+
+.input-field.error {
+  border-color: #ff0000;
+}
+
+.input-field.success {
+  border-color: #00b341;
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: 13px;
+}
+
+#submitBtn {
+  background: #1a73e8;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#successMessage {
+  background: #e0ffe8;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  color: #00792f;
+  font-weight: bold;
+}
+
